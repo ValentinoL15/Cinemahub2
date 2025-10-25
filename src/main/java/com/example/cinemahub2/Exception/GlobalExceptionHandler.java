@@ -32,11 +32,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 404,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 
@@ -51,11 +48,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 409,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 
@@ -71,11 +65,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 403,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 
@@ -92,11 +83,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 400,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 
@@ -113,11 +101,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 404,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 
@@ -134,11 +119,8 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = new ErrorResponse(
                 message.getMessage(),
-<<<<<<< HEAD
                 500,
                 status.getReasonPhrase(),
-=======
->>>>>>> DEV-MAIN
                 request.getDescription(false)
         );
 

@@ -16,7 +16,6 @@ public class InternalServerException extends RuntimeException{
     }
 
     // Constructor accepting a custom message and the original cause
-
     public InternalServerException(String message,Throwable cause){
         super(message,cause);
     }

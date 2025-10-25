@@ -20,7 +20,6 @@ public class ResourceNotFoundException extends RuntimeException{
         super(message,cause);
     }
 
-
     // 4. Constructor: Uses the DEFAULT_MESSAGE and wraps the original cause (e.g., entity not found in DB).
     public ResourceNotFoundException(Throwable cause) {
         super(DEFAULT_MESSAGE,cause);

@@ -11,7 +11,6 @@ import java.util.Date;
 @NoArgsConstructor
 public class ErrorResponse {
 
-<<<<<<< HEAD
     private Date timestamp = new Date();
     private int status;
     private String error;
@@ -23,14 +22,6 @@ public class ErrorResponse {
         this.url = url.replace("uri=", "");
         this.status = status;
         this.error = error;
-=======
-    private Date hour = new Date();
-    private String message;
-    private String url;
-
-    public ErrorResponse(String message, String url){
-        this.message = message;
-        this.url = url.replace("uri=", "");
->>>>>>> DEV-MAIN
     }
+
 }
