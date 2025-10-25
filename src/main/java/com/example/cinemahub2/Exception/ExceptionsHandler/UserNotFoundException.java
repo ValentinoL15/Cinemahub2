@@ -20,8 +20,7 @@ public class UserNotFoundException extends RuntimeException{
     }
 
     // 4. Constructor: Uses the DEFAULT_MESSAGE and wraps the original cause.
-    public UserNotFoundException(Throwable cause){
+    public UserNotFoundException(Throwable cause) {
         super(DEFAULT_MESSAGE, cause);
     }
-
 }

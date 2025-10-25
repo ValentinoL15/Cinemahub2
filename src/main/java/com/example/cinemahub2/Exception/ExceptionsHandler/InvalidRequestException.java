@@ -17,6 +17,7 @@ public class InvalidRequestException extends RuntimeException{
 
     // 3. Constructor accepting a custom message and the original cause: Useful when translating
     // a lower-level exception (like a framework validation error) into this business exception.
+
     public InvalidRequestException(String message,Throwable cause) {
         super(message,cause);
     }

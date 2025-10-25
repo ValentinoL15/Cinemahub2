@@ -10,6 +10,7 @@ public class BookingConflictException extends RuntimeException {
         super(message);
     }
 
+
     // 2. Constructor: Uses the static DEFAULT_MESSAGE (for simple, consistent signaling).
     public BookingConflictException(){
         super(DEFAULT_MESSAGE);
